@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+  --font-base: "Young Serif", serif;
+  --font-alt: "Outfit", sans-serif;
+  --clr-Nutmeg: hsl(14, 45%, 36%);
+  --clr-DarkRaspberry: hsl(332, 51%, 32%);
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-RoseWhite: hsl(330, 100%, 98%);
+  --clr-Eggshell: hsl(30, 54%, 90%);
+  --clr-LightGrey: hsl(30, 18%, 87%);
+  --clr-WengeBrown: hsl(30, 10%, 34%);
+  --clr-DarkCharcoal: hsl(24, 5%, 18%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul[role="list"],
+ol[role="list"],
+li {
+  padding: 0;
+  margin: 0;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  text-rendering: optimizeSpeed;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: var(--clr-Eggshell);
+  }
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+a {
+  text-decoration: none;
+}
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.text__move {
+  margin-left: 2rem;
+}
+.font__stuff {
+  font-family: var(--font-base);
+  color: var(--clr-Nutmeg);
+  font-size: 1.75rem;
+}
+.weight__change {
+  font-family: var(--font-alt);
+  color: var(--clr-WengeBrown);
+  font-weight: 600;
+}
+.cancel__border {
+  border-bottom: none !important;
+  margin-bottom: 2.625rem;
+}
+.attribution {
+  text-align: center;
+  margin-top: 2rem;
+}
+.attribution a {
+  color: crimson;
+}
+.bold {
+  font-weight: 600;
+}
+.col__one-clr {
+  color: var(--clr-WengeBrown);
+}
+.col__two-clr {
+  color: var(--clr-Nutmeg);
+}
+@media (min-width: 800px) {
+  .text__move {
+    margin-left: 2.563rem !important;
+  }
+}

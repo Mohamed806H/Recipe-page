@@ -1,0 +1,159 @@
+.main__section {
+  @media (min-width:600px) {
+    width: 80%;
+    background-color: white;
+    margin: 3rem auto;
+    border-radius: 30px;
+  }
+
+  @media (min-width:800px) {
+    width: 51%;
+    margin: 7.563rem auto;
+  }
+
+
+  .section__one {
+    .ommlette__img {
+      img {
+        @media (min-width:600px) {
+          border-radius: 1.5rem;
+        }
+      }
+
+      @media (min-width:600px) {
+        width: 88%;
+        margin: 0 auto;
+        padding: 2.625rem 0 0 0;
+      }
+    }
+
+    .recipe__title {
+      margin: 2.24rem 0 1.438rem 2rem;
+      font-size: 2.25rem;
+      font-family: var(--font-base);
+    }
+
+    .recipe__details {
+      font-family: var(--font-alt);
+      width: 84%;
+    }
+
+
+
+    .prepation__time {
+      background-color: var(--clr-RoseWhite);
+      width: 85%;
+      margin: 1.875rem auto;
+      border-radius: 20px;
+      font-family: var(--font-alt);
+      color: var(--clr-DarkRaspberry);
+
+      .prep__time-title {
+        padding: 1.438rem 0 1rem 1.5rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
+      .time__prep_items {
+        li {
+          margin: 0.563rem 0 0 4.063rem;
+          font-weight: 400;
+          width: 61%;
+          color: var(--clr-WengeBrown);
+          padding-left: 1.875rem;
+
+          &::marker {
+            color: var(--clr-DarkRaspberry);
+          }
+        }
+
+        .cook {
+          padding-bottom: 1.25rem;
+        }
+      }
+    }
+  }
+
+  .section__two {
+    .section__two_items {
+      li {
+        margin: 1.625rem 0 0 3.25rem;
+        padding-left: 1.75rem;
+        font-family: var(--font-alt);
+        color: var(--clr-WengeBrown);
+
+        &::marker {
+          color: var(--clr-Nutmeg);
+        }
+      }
+    }
+  }
+
+
+
+  .section__three {
+    .section__three-items {
+      li {
+        margin: 1.625rem 0 0 3.25rem;
+        padding-left: 1.5rem;
+        font-family: var(--font-alt);
+        width: 79%;
+        color: var(--clr-WengeBrown);
+        font-weight: 400;
+        font-size: 14px;
+
+        &::marker {
+          color: var(--clr-Nutmeg);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .section__four {
+    .section__four-details {
+      font-family: var(--font-alt);
+      line-height: 24px;
+      color: var(--clr-WengeBrown);
+      margin-top: 2rem;
+    }
+
+    table {
+      width: 85%;
+      margin: 0 auto;
+
+      tr {
+        border-bottom: 1px solid var(--clr-LightGrey);
+        display: flex;
+        padding: 1.6rem 0 0.8rem 4rem;
+
+
+        .first__data {
+          margin-right: 4.563rem;
+        }
+
+        .seconed__data {
+          margin-right: 5.563rem;
+        }
+
+        .third__data {
+          margin-right: 5rem;
+        }
+
+        .forth__data {
+          margin-right: 6.75rem;
+        }
+
+
+      }
+
+    }
+
+  }
+}
+
+div.line {
+  margin: 2.063rem auto 2.188rem auto;
+  width: 80%;
+  border: 1px solid var(--clr-LightGrey);
+}
